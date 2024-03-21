@@ -36,7 +36,7 @@ def get_Csv(doc):
 
 csv_file=pd.DataFrame.from_dict(get_Csv(doc), orient='index')
 csv_file=csv_file.transpose()
-csv_file.to_csv('Top Ten Selling Laptop.csv',index=None)
+csv_file.to_csv('Top Selling Laptop.csv',index=None)
 
 
 
